@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input="data/flights_clean.csv"
-output="data/delay_chances.csv"
+input="/workspaces/flight-delay-hackathon/data/flights_clean.csv"
+output="/workspaces/flight-delay-hackathon/data/delay_chances.csv"
 
 # Write header
 echo "day_of_week,arrival_airport,total_flights,delayed_flights,delay_chance" > "$output"
